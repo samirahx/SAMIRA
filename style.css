@@ -4,10 +4,11 @@ body  {
  h3{
     text-align: center;
  }
- .head1 {
-    background-color: cornflowerblue;
- }
- #head2  {
-    background-color: darkkhaki;
-    color: gold;
- }
+  #heading1 {
+    background-color: darksalmon;
+    
+}
+
+.custom-heading {
+    background-color: greenyellow;
+}
