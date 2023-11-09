@@ -1,6 +1,6 @@
 div a {
    background-color: burlywood;
-   padding:20px;
+   padding: 20px;
 }
 a > h1 {
    background-color: hotpink;
