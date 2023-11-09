@@ -1,37 +1,14 @@
-body  {
-    background-color: bisque;
+div a {
+   background-color: burlywood;
+   padding:20px;
 }
- h3{
-    text-align: center;
- }
-  #heading1 {
-    background-color: darksalmon;
+a > h1 {
+   background-color: hotpink;
+   color: darksalmon;
 }
 
-.custom-heading {
-    background-color: greenyellow;
-}
-.nav-bar{
-    background-color: lightpink;
-    color:aliceblue;
-    padding:20px;
-    text-align:center;
-}
-.footer{
-    background-color: khaki;
-    color:darkgreen;
-    padding:20px;
-    text-align: center;
-    height:100px;
-}
-.content{
-    background-color: antiquewhite;
-    padding:20px;
-    margin:10px;
-    height:300px;
-}
-h1 {
-    text-align: center;
+a + a {
+   background-color: aquamarine;
 }
 .bold{
     font-weight:bold;
