@@ -1,12 +1,21 @@
-div a {
-   background-color: burlywood;
-   padding:20px;
-}
-a > h1 {
-   background-color: hotpink;
-   color: darksalmon;
+p:hover {
+   color:darkseagreen;
+   font-weight: bold;
 }
 
-a + a {
-   background-color: aquamarine;
+p::before {
+   content: 'HELLO';
+   color:hotpink;
+   font-weight: bold;
+}
+
+p::after {
+   content: 'BYE';
+   color:rgb(91, 26, 26);
+   font-weight: bold;
+}
+
+p::selection {
+   background-color: bisque;
+   color:lawngreen;
 }
