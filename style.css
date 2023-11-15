@@ -11,7 +11,7 @@ p::before {
 
 p::after {
    content: 'BYE';
-   color:rgb(91, 26, 26);
+   color:purple;
    font-weight: bold;
 }
 
