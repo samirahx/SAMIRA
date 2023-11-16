@@ -1,21 +1,31 @@
-p:hover {
-   color:darkseagreen;
+.visible {
+   visibility: visible;
+}
+.hidden {
+   visibility: hidden;
+}
+.op_1 {
+   opacity: 1;
+}
+.op_0 {
+   opacity: 0;
+}
+.op_05 {
+   opacity: 0.5;
+}
+.none {
+   display: none;
    font-weight: bold;
 }
-
-p::before {
-   content: 'HELLO';
-   color:hotpink;
+.inline {
+   display: inline;
    font-weight: bold;
 }
-
-p::after {
-   content: 'BYE';
-   color:purple;
+.block {
+   display: block;
    font-weight: bold;
 }
-
-p::selection {
-   background-color: bisque;
-   color:lawngreen;
+h3 {
+   background-color: lightblue;
+   text-align: center;
 }
