@@ -1,33 +1,17 @@
-* {
-   padding:0;
-   margin: 0;
+@keyframes my-animation {
+   from {background-color: aliceblue;}
+   to {background-color: darkred;}
 }
 
-.nav {
-   background-color: lightblue;
-   height: 20px;
-   padding: 10px;
-   text-align: center;
-   margin-bottom: 10px;
-}
-
-.banner {
-   background-color: indianred;
-   height:200px;
-}
-
-.content {
-   background-color: bisque;
-   height: 400px;
-}
-
-.footer {
-   background-color: black;
-   height: 20px;
-   height: 100px;
+body {
+   animation: my-animation 2s alternate;
 }
 
 img {
-   width: 80%;
-   filter: grayscale(100%) invert(1005);
+   width: 500px;
+   transition: 0.5s;
+}
+
+img:active {
+   width: 800px;
 }
