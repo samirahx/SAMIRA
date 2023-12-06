@@ -18,7 +18,7 @@ body, html {
 
 /* First image */
 .bgimg-1 {
-    background-image: url('/IMAGES/aesthetic-girl-72-best-free-aesthetic-girl-woman-and-person-photos-on-unsplash.jpg');
+    background-image: url("/IMAGES/aesthetic-girl-72-best-free-aesthetic-girl-woman-and-person-photos-on-unsplash.jpg";
     min-height: 100%;
   }
  
