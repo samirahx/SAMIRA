@@ -7,7 +7,7 @@ body, html {
 }
 
 
-/* Create a Parallax Effect */
+/*  Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
   background-attachment: fixed;
   background-position: center;
@@ -16,19 +16,19 @@ body, html {
 }
 
 
-/* First image (Logo. Full height) */
+/* First image */
 .bgimg-1 {
     background-image: url('/IMAGES/aesthetic-girl-72-best-free-aesthetic-girl-woman-and-person-photos-on-unsplash.jpg');
     min-height: 100%;
   }
  
-/* Second image (Portfolio) */
+/* Second image  */
 .bgimg-2 {
   background-image: url()
 }
 
 
-/* Third image (Contact) */
+/* Third image  */
 .bgimg-3 {
   background-image: url("IMAGES/Blog-Matrix-Header-20-Week-VFX-London-MetFilm-School-1090x773.webp");
   min-height: 400px;
