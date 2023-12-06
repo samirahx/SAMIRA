@@ -1,31 +1,239 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Document</title>
-        <link rel="stylesheet" href="style.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<html>
+<head>
+<title>Project</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
 
-    </head>
-    <body>
-    <div>
-        <p>I like fries</p>
-        <p>I like burger</p>
+
+<!-- Navbar de sus -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+
+  <!-- Navbar -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+
+<!-- 1 -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MY <span class="w3-hide-small">PORTOFOLIO</span> - SAMIRA</span>
+  </div>
+</div>
+
+
+<!-- About Section -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT ME</h3>
+  <p class="w3-center"><em>I love computer science</em></p>
+  <p>  I am passionate about computer science and technology.
+    In a world driven by innovation and connectivity, my heart beats in
+    sync with the rhythm of technology. From an early age, I found myself
+    drawn to the captivating world of computers, mesmerized by the endless
+    possibilities they unfold. This passion has become the guiding force in my
+    life, shaping my interests, pursuits, and aspirations.</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Kordee Samira</b></p><br>
+      <img src="IMAGES/1062869.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
     </div>
-    
-    <img src="https://realfood.tesco.com/media/images/1400x919HawaiianBurger-39059ab5-b8bb-4147-b927-70fc1a88bfc5-0-1400x919.jpg">
-  
-    <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
+
+
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>Welcome to my website.I'm delighted to extend a warm welcome to you as you explore the various facets of my digital space.
+        My name is Samira, and I am the creator, curator, and storyteller behind this platform.
+         Here, you'll find a reflection of my passions, interests, and experiences. I am excited to share my insights,
+          knowledge, and unique perspective with you. This website serves as a canvas where I express my thoughts,
+          showcase my work, and connect with a community of like-minded individuals. Whether you're here for inspiration,
+          information, or simply to get to know me better, I hope you find what you're looking for.
+          Thank you for visiting, and I look forward to embarking on this digital journey together.
+           Feel free to explore, engage, and reach out!</p>
+    </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
+  <p class="w3-wide"><i class="fa fa-music"></i>Playing the Piano</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-pencil"></i>Drawing</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
+  </div>
+</div>
+
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">25+</span><br>
+    Friends
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">30+</span><br>
+    Projects Done
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">2+</span><br>
+    Schools
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">12+</span><br>
+    Classes
+  </div>
+</div>
+
+
+<!-- 2 -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+  </div>
+</div>
+
+
+<!-- Container-->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">MY WORK</h3>
+  <p class="w3-center"><em>Here are some of my latest works.<br> Click on the images to make them bigger</em></p><br>
+
+
+  <!-- GRID DE LA CURS -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="/IMAGES/ra961.webp" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Water">
+    </div>
+
+
+    <div class="w3-col m3">
+      <img src="/IMAGES/afec7975188b5b71c99bd03460a943f6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Books">
+    </div>
+
+
+    <div class="w3-col m3">
+      <img src="/IMAGES/tumblr_882e734a75da50f4c97beb0b46018253_4cc6fdf5_400.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Smoke">
+    </div>
+
+
+    <div class="w3-col m3">
+      <img src="/IMAGES/download.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Peacock">
+    </div>
+  </div>
+
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="/IMAGES/falkensteiner-hotels-and-residences-attractions-kladska.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Forest">
+    </div>
+
+
+    <div class="w3-col m3">
+      <img src="/IMAGES/SL2LYun.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Dark eyes">
+    </div>
+
+
+    <div class="w3-col m3">
+      <img src="/IMAGES/2679572-DXZLHGPL-7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Drawing">
+    </div>
+
+
+    <div class="w3-col m3">
+      <img src="/IMAGES/leaf-with-water-drops_961280-774.avif" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Leaf">
+    </div>
+    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+  </div>
+</div>
+
+
+<!-- Imagini la sfarist-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+  </div>
+</div>
+
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">WHERE I STUDY</h3>
+
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <img src="/IMAGES/Blog-Matrix-Header-20-Week-VFX-London-MetFilm-School-1090x773.webp" class="w3-image w3-round" style="width:100%">
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Republic of Moldova<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +373 79772341<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: kordeesamira27@mail.com<br>
       </div>
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
 
-</body>
-</html>
 
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Back To The Top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+  </div>
+</footer>  
+    </body>
+    </html>
 
 
